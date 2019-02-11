@@ -4,11 +4,11 @@ using System.Text;
 
 namespace ConsoleAppDatabase
 {
-    class Student
+    public class Student
     {
         //Instance Fields
         #region Instance Fields
-        private int _studentId;
+        private int _id;
         private string _name;
         private int _phone;
         #endregion
@@ -30,8 +30,8 @@ namespace ConsoleAppDatabase
 
         public int StudentId
         {
-            get { return _studentId; }
-            set { _studentId = value; }
+            get { return _id; }
+            set { _id = value; }
         }
         #endregion
 

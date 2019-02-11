@@ -7,6 +7,8 @@ namespace ConsoleAppDatabase
         static void Main(string[] args)
         {
             Console.WriteLine("Hello World!");
+            FacadeStudent.GetAllStudents();
+            Console.ReadLine();
         }
     }
 }
