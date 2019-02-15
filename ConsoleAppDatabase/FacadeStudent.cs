@@ -50,6 +50,12 @@ namespace ConsoleAppDatabase
             return result;
         }
 
-        public static 
+        public static List<Exam> GetSpecificExam(int examId)
+        {
+            string sql = "select dbo.exam.id dbo.exam.name, dbo.exam.grade, dbo.student.name from dbo.exam inner join dbo.student on exam.FK_student_id = student.name";
+            var result = new List<Exam>();
+
+            return result;
+        }
     }
 }
